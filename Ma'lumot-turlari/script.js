@@ -21,7 +21,7 @@ console.log(isMarried, isCircleEarth)
 
 // Null
 // eslatma: null = bu yoq o'zgaruvchini ishlatsak bu null ga teng bo'ladi
-console.log(loveName)
+// console.log(loveName)
 
 // <====================================================================================>
 
@@ -31,9 +31,24 @@ console.log(whoIs)
 
 // <====================================================================================>
 
+// null va undefined farqi
+// undefined da o'zgaruvchi bor lekin valu ya'niy qiymati yo'q
+// null da esa yo'q o'zgaruvchini chaqirsak null qaytaradi    
+
+// <====================================================================================>
+
 // Object
 let thief = {
     age: 30,
     jacket: 'blue',
     isLong: false,
 }    
+
+console.log(thief.age)
+console.log(thief['age'])
+
+// <====================================================================================>
+
+// Array and massiv
+const colors = ['red', 'black', 'green']    
+console.log(colors[2])
