@@ -37,5 +37,29 @@ for (let key in person) {
 // key bu person object ni ichidagi kalit so'zlar ya'ni
 // name = key
 // year = key
+ 
+// biza object ni ichida method() yaratishimiz ham mumkin
 
-// darslik 15:00 dan davom ettir
+const love = {
+    name: 'M',
+    year: 2008,
+    job: 'Tikuvchi',
+    hobbies: {
+        reading: 'Books',
+        listening: 'Quran'
+    },
+    sayHello: function () {
+        console.log(`Hello M`)
+    }
+}
+
+console.log(love)
+
+// biza hardoyim ham: love.name, love.year, qilib o'tirmasdan ham key larni chaqirishimiz mumkin
+
+const { name, year, job, sayHello, hobbies: {reading, listening} } = love
+console.log(reading)
+
+sayHello()
+
+// bu esa distruktizatsiya deb ataladi
