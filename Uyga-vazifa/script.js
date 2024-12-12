@@ -58,3 +58,6 @@ function writeGenres() {
 }
 
 writeGenres();
+
+const myAge = 16
+console.log(myAge)
