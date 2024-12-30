@@ -12,8 +12,8 @@ const person = {
     }
 }
 
-// biza endi objectni uzunligini bilishim kerak lekin length faqat array massiv uchu ishlaydi
-// kekin bizada boshqacha usul ham bor Object uchun
+// biza endi objectni uzunligini bilishimiz kerak lekin length faqat array massiv uchu ishlaydi
+// lekin bizada boshqacha usul ham bor Object uchun
 
 console.log(Object.keys(person).length)
 
