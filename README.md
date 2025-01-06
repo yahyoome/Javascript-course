@@ -29,4 +29,6 @@ Quyidagi mavzularni qamrab oldim:
 ## 🛠️ Foydalanish usuli
 1. Repositoryni yuklab oling:
    ```bash
+   
+   
    git clone https://github.com/username/javascript-course.git
