@@ -24,4 +24,25 @@ console.log(myName)
 // ==========================================================================
 
 // Eskicha o'zgaruvchi yaratish
-// lkin var hozirgi kunda ishlatmelar
+// lekin var o'zgaruvchisini hozirgi kunda ishlatish yaxshi emas
+
+// =====================================================================================================================
+// =====================================================================================================================
+// =====================================================================================================================
+
+// O'zgaruvchilar o'zi nima
+
+// Biza o'zgaruvchilar bilan turli hil malumot turlarini yaratishimiz mumkin bo'ladi
+// Javascript dasturlash tilida 3 xil o'zgaruvchi yaratishimiz mumkin
+
+// 1) var
+var eskiUsul = "var bilan biza eskicha ya'ni javasctpning eski versioni bo'yicha o'zgaruvchi yaratamiz lekin hozirgi kunda var o'zgaruchisidan foydalanishni maslahat bermayman"
+console.log(eskiUsul)
+
+// 2) let
+let yangiUsul = 'let bu javascript ning yangilangan versiyasidan kelgan bolib let ning hususiyati var nikiga qaraganda yasxhiroq'
+console.log(yangiUsul)
+
+// 3) const
+const ozgarmasOzgaruvchi = "Bu eng yaxshi o'zgarmas o'zgaruvchi bo'lib const let va var ga qaraganda ancha yaxshiroq xisoblanadi"
+console.log(ozgarmasOzgaruvchi)

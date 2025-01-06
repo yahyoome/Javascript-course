@@ -26,6 +26,7 @@ console.log(isMarried, isCircleEarth)
 // <====================================================================================>
 
 // Undefined
+// eslatma: qachonki biza o'zgaruvchi ochib lekin unga value ya'ni qiymat bermasak u o'zgaruvchi Undefined ga teng bo'ladi
 let whoIs;
 console.log(whoIs)    
 
@@ -52,3 +53,9 @@ console.log(thief['age'])
 // Array and massiv
 const colors = ['red', 'black', 'green']    
 console.log(colors[2])
+
+// =====================================================================================================================
+// =====================================================================================================================
+// =====================================================================================================================
+
+// Mening qisqacha fikrim
