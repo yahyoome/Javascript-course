@@ -2,6 +2,7 @@
 
 // alert()
 alert('Hello Javascript') // eslatma: alert() bu qandaydir ogohlantirish
+// alert() bizaga doyim true & false qiymat qaytaradi
 
 // ==========================================================================
 
