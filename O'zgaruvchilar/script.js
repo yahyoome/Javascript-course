@@ -30,7 +30,7 @@ console.log(myName)
 // =====================================================================================================================
 // =====================================================================================================================
 
-// O'zgaruvchilar o'zi nima
+// O'zgaruvchilar o'zi nima ?
 
 // Biza o'zgaruvchilar bilan turli hil malumot turlarini yaratishimiz mumkin bo'ladi
 // Javascript dasturlash tilida 3 xil o'zgaruvchi yaratishimiz mumkin
@@ -44,5 +44,5 @@ let yangiUsul = 'let bu javascript ning yangilangan versiyasidan kelgan bolib le
 console.log(yangiUsul)
 
 // 3) const
-const ozgarmasOzgaruvchi = "Bu eng yaxshi o'zgarmas o'zgaruvchi bo'lib const let va var ga qaraganda ancha yaxshiroq xisoblanadi"
+const ozgarmasOzgaruvchi = "Bu eng yaxshi o'zgarmas o'zgaruvchi bo'lib const || let va var ga qaraganda ancha yaxshiroq xisoblanadi"
 console.log(ozgarmasOzgaruvchi)
