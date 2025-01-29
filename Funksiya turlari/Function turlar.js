@@ -68,3 +68,81 @@ const closeHelloWorld = (name) => {
 }
 
 closeHelloWorld('Yahyobek')
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+function showNumbers(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        console.log(arr[i] * arr[i])
+    }
+}
+
+let numbers = [10, 20, 30, 40, 50];
+showNumbers(numbers)
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+function inTwo(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        if(arr[i] % 2 !== 0) {
+            // Bu yerda toq sonlar chiqadi
+            console.log(arr[i]);
+        } else {
+            // console.log(arr[i])
+        }
+    }
+}
+
+let inTwoNumbers = [10, 15, 22, 33, 40, 55, 60]
+inTwo(inTwoNumbers)
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+// Number #1
+function squareNumber(num) {
+    return num ** 2
+}
+console.log(squareNumber(7))
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+// Number #2
+function doubledNumbers(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        console.log(arr[i] * 2)
+    }
+}
+
+let doubledNumbersDB = [2,4,6]
+doubledNumbers(doubledNumbersDB)
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+// Number #3
+function showOddNumbers(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] % 2 !== 0) {
+            console.log(arr[i])
+        }
+    }
+}
+
+let oddNumbers = [1,2,3,4,5,6]
+showOddNumbers(oddNumbers)
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+// Number #4
+function squareEvenNumbers(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] % 2 === 0) {
+            console.log(arr[i] ** 2)
+        }
+    }
+}
+
+let squareEvenNum = [1,2,3,4,5,6]
+squareEvenNumbers(squareEvenNum)

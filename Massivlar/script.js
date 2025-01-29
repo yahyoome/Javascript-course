@@ -75,6 +75,13 @@ for (let myFavouriteScoialMedia of myFavouriteScoialMedias) {
 }
 // biza split yordamida string ni array[] ga aylatirib oldik
 
-// biza yana array ni ichidagi elemetlarni oldiga hohlaga arsamizni qo'shib qo'yishimiz mumkin bo'ladi
+// biza yana array ni ichidagi elemetlarni oldiga hohlagan narsamizni qo'shib qo'yishimiz mumkin bo'ladi
 const newArr = myFavouriteScoialMedias.join('-')
 console.log(newArr)
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+let fruits = ['banana', 'apple', 'grapes']
+console.log(fruits[1])
