@@ -83,8 +83,9 @@ function showNumbers(arr) {
 let numbers = [10, 20, 30, 40, 50];
 showNumbers(numbers)
 
-// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+// Number #1
 function inTwo(arr) {
     for (let i = 0; i < arr.length; i++) {
         if(arr[i] % 2 !== 0) {
@@ -101,7 +102,7 @@ inTwo(inTwoNumbers)
 
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-// Number #1
+// Number #2
 function squareNumber(num) {
     return num ** 2
 }
@@ -109,7 +110,7 @@ console.log(squareNumber(7))
 
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-// Number #2
+// Number #3
 function doubledNumbers(arr) {
     for(let i = 0; i < arr.length; i++) {
         console.log(arr[i] * 2)
@@ -121,7 +122,7 @@ doubledNumbers(doubledNumbersDB)
 
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-// Number #3
+// Number #4
 function showOddNumbers(arr) {
     for(let i = 0; i < arr.length; i++) {
         if(arr[i] % 2 !== 0) {
@@ -135,7 +136,7 @@ showOddNumbers(oddNumbers)
 
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-// Number #4
+// Number #5
 function squareEvenNumbers(arr) {
     for(let i = 0; i < arr.length; i++) {
         if(arr[i] % 2 === 0) {
