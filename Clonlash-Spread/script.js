@@ -6,7 +6,7 @@
 
 const person = {
     name: 'Yahyo',
-    age: 16,
+    age: 17,
     hobbies: {
         game: 'Minecraft',
         sport: 'Football'
@@ -16,23 +16,44 @@ const person = {
 // ------------------------------------------------------------------------------------------------------
 
 // #1. - Iteratsiya yordamida clone lash
-// const copyObj = (obj) => {
-//     const clone = {}
+const copyPerson1 = (obj) => {
+    const clone = {}
 
-//     for (let key in obj) {
-//         clone[key] = obj[key]
-//     }
+    for (let key in obj) {
+        clone[key] = obj[key]
+    }
 
-//     return clone
-// }
+    return clone
+}
 
-// const secondPerson = copyObj(person)
+const secondPerson = copyPerson1(person)
 
-// secondPerson.name = 'Sard    or'
-// secondPerson.age = 13
+secondPerson.name = 'Sardor'
+secondPerson.age = 13
 
-// console.log(person);
-// console.log(secondPerson);
+console.log(person);
+console.log(secondPerson);
+
+// thir person
+
+const copyPerson2 = (obj) => {
+    const clone = {}
+
+    for(let key in obj) {
+        clone[key] = obj[key]
+    }
+
+    return clone
+}
+
+const thirdPerson = copyPerson2(person)
+
+thirdPerson.name = 'Oyatillo'
+thirdPerson.age = 8
+
+console.log(person);
+console.log(secondPerson);
+console.log(thirdPerson);
 
 // ------------------------------------------------------------------------------------------------------
 
@@ -65,38 +86,45 @@ const person = {
 // Massivlarni yuzaki clone lash
 
 // #1. - slice() method yordamida clone lash
-const cars = ['MERS', 'BMW', 'PORSCHE']
-const clonedCars = cars.slice()
-clonedCars.push('MCLAREN')
+// const cars = ['MERS', 'BMW', 'PORSCHE']
+// const clonedCars = cars.slice()
+// clonedCars.push('MCLAREN')
 
-const joinedClonedCars = clonedCars.join(' ')
+// const joinedClonedCars = clonedCars.join(' ')
 
-console.log(cars)
-console.log(clonedCars)
+// console.log(cars)
+// console.log(clonedCars)
 // console.log(joinedClonedCars)
 
 // ------------------------------------------------------------------------------------------------------
 
 // #2. Spread operatori yordamida clone lash
-const spreatedCars = [...cars]
-spreatedCars.push('LAMBARGHINI')
+// const spreatedCars = [...cars]
+// spreatedCars.push('LAMBARGHINI')
 
-console.log(cars)
-console.log(spreatedCars)
+// console.log(cars)
+// console.log(spreatedCars)
 
 // ********************************************************************************************************
 // ********************************************************************************************************
 
 // Function - Spread
 
-function log(a,b,c) {
-    console.log('First arg', a);
-    console.log('Second arg', b);
-    console.log('Thords arg', c);
-}
+// function log(a,b,c) {
+//     console.log('First arg', a);
+//     console.log('Second arg', b);
+//     console.log('Thords arg', c);
+// }
 
-const arr = [1,2,3]
+// const arr = [1,2,3]
 
 // biza server dan yoki database dan keloyotgan malumotlarni spread operatori yordamida tarqatvorishimiz mumkin bo'ladi
 
-log(...arr)
+// console.log(...arr)
+
+let salom = {
+    name: 'shakarob',
+    age: 1989
+}
+
+console.log(salom);

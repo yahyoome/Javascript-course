@@ -8,3 +8,13 @@ function greeting (callback) {
 }
 
 greeting(() => console.log('Are you ready today'))
+
+
+function bye(callback) {
+    console.log('Good Bye');
+    callback()
+}
+
+bye(function nimadir() {
+    console.log('Bye');
+})

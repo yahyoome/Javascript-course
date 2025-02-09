@@ -17,7 +17,7 @@ console.log(a / b);
 console.log(a % b);
 console.log(a++); // o'z qiymatini saqlab turadi lekin console.log() da ko'rsatilmaydi shuning uchun ham biz a o'zgaruvchini keyingi qatorda chaqirishimiz kerak bo'ladi
 console.log(a);
-console.log(b--);
+console.log(b--); // o'z qiymatini saqlab turadi lekin console.log() da ko'rsatilmaydi shuning uchun ham biz a o'zgaruvchini keyingi qatorda chaqirishimiz kerak bo'ladi
 console.log(b);
 
 // =====================================================================================================================
@@ -42,6 +42,11 @@ console.log(f); // 10
 console.log(f);
 f += g
 console.log(f);
+
+let m = 10, n = 5
+m *= n
+console.log(m);
+
 
 // =====================================================================================================================
 //                                                  PRACTICE PRACTICE PRACTICE
